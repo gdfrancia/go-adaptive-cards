@@ -10,7 +10,7 @@ func IntPtr(i int) *int {
 	return &i
 }
 
-// IntString returns pointer to string
+// StringPtr returns pointer to string
 func StringPtr(s string) *string {
 	return &s
 }
