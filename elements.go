@@ -229,7 +229,7 @@ func (t *TableRow) prepare() error {
 type TableCell struct {
 	Type  string `json:"type"`
 	Items []Node `json:"items,omitempty"`
-	Style string `json:"style"`
+	Style string `json:"style,omitempty"`
 }
 
 func (t *TableCell) prepare() error {
