@@ -11,7 +11,7 @@ func IntPtr(i int) *int {
 }
 
 // IntString returns pointer to string
-func IntString(s string) *string {
+func StringPtr(s string) *string {
 	return &s
 }
 
