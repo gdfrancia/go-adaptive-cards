@@ -212,6 +212,7 @@ func (t *TableColumn) prepare() error {
 
 type TableRow struct {
 	Type  string      `json:"type"`
+	Style string      `json:"style,omitempty"`
 	Cells []TableCell `json:"cells,omitempty"`
 }
 
