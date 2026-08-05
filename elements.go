@@ -14,6 +14,7 @@ type TextBlock struct {
 	IsSubtle            *bool  `json:"isSubtle,omitempty"`
 	MaxLines            int64  `json:"maxLines,omitempty"`
 	Size                string `json:"size,omitempty"`
+	Style               string `json:"style,omitempty"`
 	Weight              string `json:"weight,omitempty"`
 	Wrap                *bool  `json:"wrap,omitempty"`
 	// inherited
